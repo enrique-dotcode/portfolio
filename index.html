@@ -2,43 +2,55 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link type="text/css" rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1." />
+    <link type="text/css" rel="stylesheet" href="styles/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gantari&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Portfolio</title>
   </head>
   <body>
-    <header class="container-fluid">
-      <nav class="main-nav">
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </header>
-    <div class="container">
-      <div>
-        <img
-          src="/img/images.jpg"
-          alt="Picture of man smiling"
-          style="height: 100px; width: 100px"
-        />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto odit
-        magni impedit necessitatibus, quisquam labore ratione asperiores
-        consequatur animi iure, aut modi possimus id illum ut, similique saepe
-        voluptatem. Dolorum!
+    <div class="nav-justified">
+      <div class="navbar-text">
+        <a href="projects.html"> Projects</a>
+        <a href="contacts.html"> Contact</a>
+        <a href="#"> Resume (download)</a>
       </div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio similique
-        velit debitis. Unde, facere corporis culpa quam possimus voluptatum
-        totam temporibus aliquam nobis commodi deleniti veniam, quidem adipisci
-        quos velit!
+      <div class="container">
+        <main class="card-body">
+          <div class="text-center">
+            <img
+              class="img-fluid rounded-pill"
+              src="/images/images.jpg"
+              alt="Picture of Enrique"
+            />
+          </div>
+          <hr />
+          <div class="container">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+              possimus magnam ad aperiam voluptatem deleniti temporibus quis
+              ipsa asperiores! Corporis debitis architecto nisi est tenetur
+              accusantium, quo similique esse sed?
+            </p>
+          </div>
+        </main>
       </div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio excepturi
-        nihil explicabo deserunt quos accusantium sequi, nesciunt sit hic
-        deleniti qui inventore, cumque modi. Sunt voluptas soluta ea est
-        veritatis!
-      </div>
+      <footer>
+        <p>Made by Me for Me</p>
+        <a href="github.com/enrique-dotcode">
+          ><img src="/images/icons8-github-100.png "
+        /></a>
+        <a href="https://www.linkedin.com/in/enrique-garcia-juarez-514b31243/">
+          ><img src="/images/icons8-linkedin-circled-100.png"
+        /></a>
+      </footer>
     </div>
-    <footer class="foot">Made By Me For Me</footer>
   </body>
 </html>

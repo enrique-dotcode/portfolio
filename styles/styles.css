@@ -1,0 +1,29 @@
+body {
+  font-family: 'Gantari', sans-serif;
+  background-color: #0d1b2a;
+  margin: 0 auto;
+  color:aliceblue;
+}
+a {
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.navbar-text {
+  display: flex;
+  justify-content: space-evenly;
+}
+p{
+  font-size: 1.2em;
+}
+div.container {
+  margin-top: 4em;
+}
+footer {
+  background-color: rgba(128, 128, 128, 0.932);
+  min-width: 100%;
+  position: fixed;
+  bottom: 0%;
+  display: flex;
+  justify-content: center;
+}
