@@ -6,24 +6,46 @@ body {
 }
 a {
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1.32em;
   font-weight: bold;
 }
-.navbar-text {
+
+div.links{
+  position: relative;
+  height: 1000px;
+  width: 100%;
+  padding: 0;
+}
+div.links > a:nth-child(1){
+  position: absolute;
+  top: 0;
+  left: 0;;
+}
+div.links > a:nth-child(2){
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+div.links > a:nth-child(3){
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+div.links > a:nth-child(4){
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+main {
+  padding-top: 50%;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
 }
-p{
-  font-size: 1.2em;
-}
-div.container {
-  margin-top: 4em;
-}
-footer {
-  background-color: rgba(128, 128, 128, 0.932);
-  min-width: 100%;
-  position: fixed;
-  bottom: 0%;
-  display: flex;
-  justify-content: center;
+p {
+  text-align: center;
+  font-size: 28px;
 }
